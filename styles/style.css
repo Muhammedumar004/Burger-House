@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.navebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-items{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.burgur-logo{
+    width: 5%;
+}
+.burgur-house{
+    font-family: sans-serif;
+
+}
+.dilivery-boy{
+    width: 50px;
+}
+.express-dilivery{
+    font-family: sans-serif;
+}
