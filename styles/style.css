@@ -1,11 +1,14 @@
 *{
     margin: 0px;
     padding: 0;
+    font-family: sans-serif;
 }
 .navebar{
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .navbar-items{
     display: flex;
@@ -15,13 +18,92 @@
 .burgur-logo{
     width: 5%;
 }
-.burgur-house{
-    font-family: sans-serif;
-
-}
 .dilivery-boy{
     width: 50px;
 }
-.express-dilivery{
-    font-family: sans-serif;
+.navbar-second{
+
+    margin-left:70%;
 }
+.navbar-second a{
+    margin: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.banner-para{
+    width: 24%;
+    padding: 10px;
+    color: #5f4603;
+    border:  2px dashed #5f4603;
+    text-transform: capitalize;
+}
+.banner-hadding{
+   color:#5f4603;
+   font-size: 50px;
+   /* line-height: 40px; */
+   text-shadow: 4px 4px 1px white ;
+}
+ .banner-main-hadding{
+    font-size: 120px;
+}
+ .banner-txt{
+    padding-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+ .white-shado{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    background-color: white;
+    filter: blur(80px);
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+ .banner-burger{
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+.banner-chips{
+    rotate: -30deg;
+    width: 15%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+ .banner-drink{
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left:80%;
+}
+.shadwo{
+    width: 150px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000cb;
+    filter: blur(12px);
+    position: absolute;
+    top: 84%;
+    left:80%;
+}
+.shadwooo{
+    width: 250px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000cb;
+    filter: blur(12px);
+    position: absolute;
+    top: 86%;
+    left:65%;
+} 
