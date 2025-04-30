@@ -65,9 +65,9 @@
     height: 300px;
     border-radius: 100px;
     background-color: white;
-    filter: blur(80px);
+    filter: blur(100px);
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 60%;
 }
  .banner-burger{
@@ -122,7 +122,7 @@
     width: 500px;
     display: flex;
     margin-top: 60px;
-    gap: 100px;
+    gap: 80px;
     flex-direction: column;
 }
 .right-image-div img{
@@ -170,4 +170,86 @@
     font-size: 30px;
     color: #ffffff;
     text-transform:capitalize ;
+}
+.main-section-two-hadding{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 200px;
+    color: #000000;
+    width: 145px;
+    margin-left: 45%;
+    background-color: rgb(255, 221, 0);
+}
+.main-section-two-para{
+    text-align: center;
+    margin-top: 40px;
+    /* text-transform: uppercase; */
+}
+.main-section-two-para-2{
+    text-align: center;
+    /* margin-top: 10px; */
+    /* text-transform: uppercase; */
+}
+.main-section-two-hadding-bold{
+    line-height: 10px;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.content-image{
+    width: 60%;
+}
+.content-images-and-text-shadwo{
+    width: 150px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000cb;
+    filter: blur(15px);
+    margin-top: -10px;
+    margin-left: 23px;
+}
+.content-images-and-text p{
+    text-align: center;
+
+}
+.content-images-and-text button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+}
+.content-images-and-text{
+    margin-top: 50px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.content-images-and-text h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #4e2604;
+    text-transform: uppercase;
+}
+.main-section-two-images{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.main-section-three{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.423);
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main-section-three img{
+     width: 40%;
+}
+.main-section-three div{
+    width: 40%;
 }
